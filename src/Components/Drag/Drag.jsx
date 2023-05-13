@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateRight } from '@fortawesome/free-solid-svg-icons';
 import SetaVoltar from "../SetaVoltar/SetaVoltar";
+import './Drag.css'
 
 export default function MyComponent() {
     const constraintsRef = useRef(null);

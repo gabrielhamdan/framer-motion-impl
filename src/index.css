@@ -28,6 +28,7 @@ i {
   border-radius: 30px;
   width: 150px;
   height: 150px;
+  cursor: pointer;
 }
 
 .title {
@@ -42,16 +43,5 @@ i {
 .refresh-btn {
   font-size: 28px;
   margin-left: 15px;
-}
-
-.drag-area {
-  opacity: 0.2;
-  background: white;
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  border-radius: 30px;
-  top: calc(50% - 150px);
-  left: calc(50% - 150px);
-  z-index: -1;
+  cursor: pointer;
 }

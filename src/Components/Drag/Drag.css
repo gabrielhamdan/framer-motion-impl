@@ -1,0 +1,11 @@
+.drag-area {
+    opacity: 0.2;
+    background: white;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    z-index: -1;
+  }

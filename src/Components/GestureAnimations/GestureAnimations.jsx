@@ -7,7 +7,7 @@ export default function GestureAnimations() {
         <>
         <SetaVoltar />
         <div className="title">
-            <h1>Gesture Animation</h1>
+            <h1>Gesture<br/>Animation</h1>
         </div>
         <div className="quadrado">
 
