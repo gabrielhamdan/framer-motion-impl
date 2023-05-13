@@ -1,0 +1,57 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1A1A1A;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #E52FC1;
+  text-align: center;
+}
+
+i {
+  color: #E52FC1;
+}
+
+.quadrado {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.quadrado div {
+  background:  linear-gradient(180deg, #E42F92 0%, #B852D2);
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresh-btn {
+  font-size: 28px;
+  margin-left: 15px;
+}
+
+.drag-area {
+  opacity: 0.2;
+  background: white;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  z-index: -1;
+}
