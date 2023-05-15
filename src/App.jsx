@@ -1,12 +1,10 @@
-import GestureAnimations from './Components/GestureAnimations/GestureAnimations'
-import Drag from './Components/Drag/Drag'
+import AppRoutes from "./Pages/Routes"
 
 function App() {
 
   return (
     <>
-    {/* <Drag /> */}
-    <GestureAnimations />
+      <AppRoutes />
     </>
   )
 }

@@ -17,6 +17,11 @@ i {
   color: #E52FC1;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .quadrado {
   display: flex;
   justify-content: center;

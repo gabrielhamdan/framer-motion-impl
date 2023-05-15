@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import './SetaVoltar.css'
+import { Link } from 'react-router-dom'
 
 export default function SetaVoltar() {
     const animacao = {
@@ -12,7 +13,9 @@ export default function SetaVoltar() {
 
     return (
         <motion.div variants={animacao} className="seta-container" whileHover="hover">
-            <FontAwesomeIcon icon={faArrowLeft} className="seta" />
+            <Link to={"/"} className="seta">
+                <FontAwesomeIcon icon={faArrowLeft} />
+            </Link>
         </motion.div>
     )
 }

@@ -1,0 +1,26 @@
+.exemplos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.exemplos h2 {
+    margin: 30px;
+}
+
+.exemplos a {
+    transition: ease-in-out .2s;
+}
+
+.exemplos a:hover {
+    color: #B852D2;
+    filter: drop-shadow(0 0 0.75rem #B852D2);
+}
+
+.rodape {
+    font-size: small;
+    bottom: 15px;
+    position: absolute;
+}
